@@ -1,0 +1,50 @@
+---
+title: "MicroProfile JWT Bridge (under development)"
+date: 2023-07-30
+summary: "Creation Review"
+---
+
+Jakarta Security plans to include a JWT authentication mechanism. MicroProfile has specified JWT, and a few implementations are internally based on Jakarta Security. This specification is to bridge Jakarta Security with MicroProfile JWT and provide seamless integrations with MicroProfile JWT.
+
+=== Abstract
+
+The specification enables mapping MicroProfile JWT tokens to Jakarta EE container APIs not included in the MicroProfile umbrella and provides a place where Jakarta EE specifications, such as Jakarta Security, can build requirements and seamless integrations with MicroProfile JWT.
+
+In order not to introduce circular dependencies, this specification is to be created with the following scopes:
+
+* Define the annotations to working with JWT authentication mechanisms such as how to configure the JWT claims. 
+
+* Spec language would be added to state: Format of the JWT must comply with MP spec. Validation and handling of the JWT must comply with MP spec. 
+
+* Move the optional section of MP JWT to the new bridge spec together with TCKs. 
+
+* This specification does not limit only to Jakarta Security and it may also include other relevant technologies.
+
+More information can be found in MicroProfile sandbox https://github.com/eclipse/microprofile-sandbox/tree/main/proposals/jwt-bridge[jwt-bridge proposal].
+
+# Ballots
+
+The Specification Committee Ballot concluded successfully on 10th August 2023 with the following results.
+
+.Creation Review Ballot Result
+
+|============================================================================
+| Representatives                        | Representing                | Vote 
+| Vincent Mayers                         | Atlanta JUG                 | +1
+| Emily Jiang, Nathan Rauh               | IBM                         | +1     
+| Ed Bratt, Dmitry Kornilov              | Oracle                      | no vote     
+| John Clingan, Roberto Cortez           | Red Hat                     | +1    
+| David Blevins, Amelia Eiras.           | Tomitribe                   | +1    
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group| +1   
+| Jan Westerkamp, Heiko Rupp             | iJUG                        | +1   
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | +1
+| Alfonso Altamirano, Luís Neto          | Payara                      | +1
+| Mingyue Huang                          | Primeton                    | +1
+| Reza Rahman, Ed Burns                  | Microsoft                   | +1
+| Feng Wang                              | Asiainfo Anhui              | +1
+| N/A                                    | Committer Representative    | 
+| Total                                  |                             | 11
+| Non-binding Vote                       | Role                        | Vote
+| Emerson Castaneda	                     | Community	               | +1
+| Total                                  |                             |  1
+|=============================================================================
