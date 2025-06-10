@@ -29,4 +29,4 @@ The release will not contain any backwards incompatible changes. However, the ad
 The Specification Committee Ballot concluded successfully on 2025-03-03 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02721.html[microprofile-wg mailing list].
 
 == Release Review
-The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list]
+The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02873.html[microprofile-wg mailing list]
