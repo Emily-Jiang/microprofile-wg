@@ -7,8 +7,8 @@ MicroProfile Telemetry adopts OpenTelemetry from the CNCF and adds MicroProfile 
 
 This is a minor release. The following updates are provided:
 
-* Adopt the latest release of OpenTelemetry 
-* Expose the attributes of code.namespace
+* Adopt the latest release of OpenTelemetry https://github.com/microprofile/microprofile-telemetry/issues/318 [#318]
+* Expose the attributes of code.* https://github.com/microprofile/microprofile-telemetry/issues/321[#321]
 
 The proposed issues to be addressed in this release can be found https://github.com/microprofile/microprofile-telemetry/milestone/3[here].
 
